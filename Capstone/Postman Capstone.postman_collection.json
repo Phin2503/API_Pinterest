@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "a194c80c-288b-4914-82a1-dd54ac0868af",
+		"name": "Postman Capstone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/user/login",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignUp",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get danh sach anh",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/home/getImages",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"home",
+						"getImages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get danh sach anh theo ten",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/home/getImagesName",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"home",
+						"getImagesName"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get thong tin anh va nguoi tao anh",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/detail/getImagesAndUser/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"detail",
+						"getImagesAndUser",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get thong tin binh luan theo id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/detail/getComments/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"detail",
+						"getComments",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get thong tin da luu hinh anh chua",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/detail/checkSave/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"detail",
+						"checkSave",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get thong tin users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/managerIMG/getUsers",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"managerIMG",
+						"getUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get danh sach anh da luu theo ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/managerIMG/listIMGOfUser/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"managerIMG",
+						"listIMGOfUser",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get danh sach da tao theo ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/managerIMG/listIMGCreated/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"managerIMG",
+						"listIMGCreated",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete anh theo ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/managerIMG/deleteImg/2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"managerIMG",
+						"deleteImg",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "them 1 anh cua user",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/updateUsers/updateUsers",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"updateUsers",
+						"updateUsers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
